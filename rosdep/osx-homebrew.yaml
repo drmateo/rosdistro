@@ -721,7 +721,7 @@ yaml-cpp:
   osx:
     homebrew:
       depends: [yaml]
-      packages: [yaml-cpp-0.3]
+      packages: [yaml-cpp]
 zlib:
   osx:
     homebrew:
