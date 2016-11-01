@@ -774,6 +774,10 @@ wxwidgets:
   osx:
     homebrew:
       depends: [wxpython]
+xdot:
+  osx:
+    homebrew:
+      packages: [xdot]
 yaml:
   osx:
     homebrew:
