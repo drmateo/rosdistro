@@ -487,6 +487,10 @@ opencv2.3:
   osx:
     homebrew:
       packages: [opencv]
+opencv3:
+  osx:
+    homebrew:
+      packages: [opencv3]
 opengl:
   osx:
     homebrew:
