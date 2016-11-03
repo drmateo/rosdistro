@@ -263,6 +263,10 @@ libopenni2-dev:
   osx:
     homebrew:
       packages: [openni2]
+libosmesa6-dev:
+  osx:
+    homebrew:
+      packages: [mesalib-glw]
 libpcap:
   osx:
     homebrew:
