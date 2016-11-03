@@ -710,6 +710,10 @@ sdl-image:
   osx:
     homebrew:
       packages: [sdl_image]
+sdl:
+  osx:
+    homebrew:
+      packages: [sdl]
 sdl2:
   osx:
     homebrew:
