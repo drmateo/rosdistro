@@ -179,6 +179,10 @@ libdc1394-dev:
   osx:
     homebrew:
       packages: [libdc1394]
+libdevil-dev:
+  osx:
+    homebrew:
+      packages: [devil]
 libdmtx-dev:
   osx:
     homebrew:
