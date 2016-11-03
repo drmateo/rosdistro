@@ -423,6 +423,10 @@ libxext:
   osx:
     homebrew:
       packages: []
+libxi-dev:
+  osx:
+    homebrew:
+      packages: []
 libxml2:
   osx:
     homebrew:
