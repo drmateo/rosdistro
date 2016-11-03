@@ -427,7 +427,7 @@ libxml2:
   osx:
     homebrew:
       packages: []
-libxmu-dev;
+libxmu-dev:
   osx:
     homebrew:
       packages: []
