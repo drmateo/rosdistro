@@ -427,6 +427,10 @@ libxml2:
   osx:
     homebrew:
       packages: []
+libxmu-dev;
+  osx:
+    homebrew:
+      packages: []
 libxrandr:
   osx:
     homebrew:
