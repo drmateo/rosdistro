@@ -422,7 +422,7 @@ libvtk-qt:
 libx11:
   osx:
     homebrew:
-      packages: [xquartz]
+      packages: [Caskroom/cask/xquartz]
 libxaw:
   osx:
     homebrew:
@@ -474,7 +474,7 @@ mercurial:
 meshlab:
   osx:
     homebrew:
-      packages: [meshlab]
+      packages: [Caskroom/cask/meshlab]
 mongodb-dev:
   osx:
     homebrew:
