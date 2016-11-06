@@ -722,14 +722,14 @@ scons:
   osx:
     homebrew:
       packages: [scons]
-sdl-image:
-  osx:
-    homebrew:
-      packages: [sdl_image]
 sdl:
   osx:
     homebrew:
       packages: [sdl]
+sdl-image:
+  osx:
+    homebrew:
+      packages: [sdl_image]
 sdl2:
   osx:
     homebrew:
