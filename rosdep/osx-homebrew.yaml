@@ -471,6 +471,10 @@ mercurial:
   osx:
     pip:
       packages: [mercurial]
+meshlab:
+  osx:
+    pip:
+      packages: [meshlab]
 mongodb-dev:
   osx:
     homebrew:
