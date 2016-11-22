@@ -268,6 +268,10 @@ python-bitstring-pip:
   ubuntu:
     pip:
       packages: [bitstring]
+python-blinker:
+  debian: [python-blinker]
+  fedora: [python-blinker]
+  ubuntu: [python-blinker]
 python-bloom:
   fedora: [python-bloom]
   ubuntu:
@@ -278,7 +282,7 @@ python-bloom:
     trusty: [python-bloom]
     trusty_python3: [python3-bloom]
 python-bluez:
-  arch: [python-pybluez]
+  arch: [python2-pybluez]
   debian: [python-bluez]
   fedora: [pybluez]
   gentoo: [dev-python/pybluez]
@@ -371,6 +375,7 @@ python-catkin-sphinx:
       packages: [catkin_sphinx]
   ubuntu: [python-catkin-sphinx]
 python-catkin-tools:
+  arch: [python2-catkin-tools]
   fedora: [python-catkin_tools]
   osx:
     pip:
@@ -437,6 +442,7 @@ python-click:
     xenial: [python-click]
     yakkety: [python-click]
 python-colorama:
+  arch: [python2-colorama]
   debian: [python-colorama]
   fedora: [python-colorama]
   osx:
@@ -576,7 +582,7 @@ python-debian:
     vivid: [python-debian]
     vivid_python3: [python3-debian]
 python-defusedxml:
-  arch: [python-defusedxml]
+  arch: [python2-defusedxml]
   debian: [python-defusedxml]
   fedora: [python-defusedxml]
   gentoo: [dev-python/defusedxml]
@@ -690,9 +696,11 @@ python-falcon:
 python-fcn-pip:
   osx:
     pip:
+      depends: [libhdf5-dev, liblapack-dev, leveldb]
       packages: [fcn]
   ubuntu:
     pip:
+      depends: [libhdf5-dev, liblapack-dev, leveldb]
       packages: [fcn]
 python-flake8:
   fedora:
@@ -758,6 +766,13 @@ python-freezegun-pip:
   ubuntu:
     pip:
       packages: [freezegun]
+python-future:
+  debian: [python-future]
+  fedora: [python-future]
+  osx:
+    pip:
+      packages: [future]
+  ubuntu: [python-future]
 python-fysom:
   debian:
     pip:
@@ -965,7 +980,7 @@ python-kdtree:
     pip:
       packages: [kdtree]
 python-kitchen:
-  arch: [python-kitchen]
+  arch: [python2-kitchen]
   debian: [python-kitchen]
   fedora: [python-kitchen]
   ubuntu:
@@ -1252,6 +1267,7 @@ python-numpy:
     wily: [python-numpy]
     xenial: [python-numpy]
 python-oauth2:
+  arch: [python-oauth2]
   debian: [python-oauth2]
   fedora: [python-oauth2]
   ubuntu: [python-oauth2]
@@ -2418,6 +2434,7 @@ python-termcolor:
     xenial: [python-termcolor]
     xenial_python3: [python3-termcolor]
 python-texttable:
+  arch: [python2-texttable]
   debian:
     jessie: [python-texttable]
     sid: [python-texttable]
@@ -2438,6 +2455,41 @@ python-texttable:
 python-tftpy:
   fedora: [python-tftpy]
   ubuntu: [python-tftpy]
+python-theano:
+  arch: [python-theano]
+  debian:
+    jessie:
+      pip:
+        packages: [Theano]
+    stretch: [python-theano]
+  fedora: [python-theano]
+  osx:
+    pip:
+      packages: [Theano]
+  ubuntu:
+    precise:
+      pip:
+        packages: [Theano]
+    saucy:
+      pip:
+        packages: [Theano]
+    trusty:
+      pip:
+        packages: [Theano]
+    utopic:
+      pip:
+        packages: [Theano]
+    vivid:
+      pip:
+        packages: [Theano]
+    wily:
+      pip:
+        packages: [Theano]
+    xenial:
+      pip:
+        packages: [Theano]
+    yakkety: [python-theano]
+    zesty: [python-theano]
 python-tilestache:
   debian: [tilestache]
   fedora:

@@ -442,6 +442,7 @@ bzip2:
       packages: [bzip2]
   ubuntu: [libbz2-dev]
 ca-certificates:
+  arch: [ca-certificates]
   debian: [ca-certificates]
   fedora: [ca-certificates]
   ubuntu: [ca-certificates]
@@ -689,11 +690,6 @@ eigen2:
   ubuntu:
     apt:
       packages: [libeigen2-dev]
-eigen3:
-  fedora: [eigen3-devel]
-  gentoo:
-    portage:
-      packages: [dev-cpp/eigen]
 emacs:
   arch: [emacs]
   debian: [emacs]
@@ -829,10 +825,12 @@ g++-multilib:
   gentoo: [sys-devel/multilib-gcc-wrapper]
   ubuntu: [g++-multilib]
 g++-static:
+  arch: [gcc]
   debian: [g++]
   fedora: [gcc-c++, glibc-devel, glibc-static, libstdc++-devel, libstdc++-static]
   ubuntu: [g++]
 gawk:
+  arch: [gawk]
   debian: [gawk]
   fedora: [gawk]
   ubuntu: [gawk]
@@ -899,6 +897,7 @@ geographiclib:
     wily: [libgeographic-dev]
     xenial: [libgeographic-dev]
 geos:
+  arch: [geos]
   fedora: [geos-devel]
   ubuntu: [libgeos-dev]
 gforth:
@@ -1615,6 +1614,7 @@ libgeographiclib-dev:
   gentoo: [sci-geosciences/geographiclib]
   ubuntu: [libgeographiclib-dev]
 libgeos++-dev:
+  arch: [geos]
   debian: [libgeos++-dev]
   fedora: [geos-devel]
   ubuntu: [libgeos++-dev]
@@ -3295,6 +3295,7 @@ openssh-server:
   fedora: [openssh-server]
   ubuntu: [openssh-server]
 openssl:
+  arch: [openssl]
   debian: [openssl]
   fedora: [openssl]
   ubuntu: [openssl]
@@ -3884,7 +3885,12 @@ texlive-latex-recommended:
 texmaker:
   fedora: [texmaker]
   ubuntu: [texmaker]
+tilestache:
+  debian: [tilestache]
+  fedora: [python-tilestache]
+  ubuntu: [tilestache]
 time:
+  arch: [time]
   debian: [time]
   fedora: [time]
   ubuntu: [time]
@@ -4162,6 +4168,7 @@ xulrunner-dev:
   fedora: [libv8-devel, xulrunner-devel]
   ubuntu: [libv8-dev]
 xvfb:
+  arch: [xorg-server-xvfb]
   debian: [xvfb]
   fedora: [xorg-x11-server-Xvfb]
   ubuntu: [xvfb]
