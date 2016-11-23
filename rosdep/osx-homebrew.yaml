@@ -46,6 +46,10 @@ checkinstall:
   osx:
     homebrew:
       packages: []
+catkin:
+  osx:
+    homebrew:
+      packages: [catkin]
 cmake:
   osx:
     homebrew:
