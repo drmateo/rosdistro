@@ -49,7 +49,7 @@ checkinstall:
 catkin:
   osx:
     homebrew:
-      packages: [catkin]
+      packages: [drmateo/kinetic/catkin]
 cmake:
   osx:
     homebrew:
